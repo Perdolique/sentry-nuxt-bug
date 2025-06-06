@@ -1,0 +1,19 @@
+{
+  "name": "sentry-nuxt-bug",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@sentry/nuxt": "9.26.0",
+    "nuxt": "3.17.5",
+    "typescript": "5.8.3"
+  },
+  "volta": {
+    "node": "22.16.0",
+    "npm": "11.4.1"
+  }
+}
